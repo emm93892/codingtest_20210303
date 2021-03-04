@@ -21,16 +21,22 @@ with open(result_path, mode='w') as f:
         # timeouted_server_address -> タイムアウトしたサーバアドレスを格納
         timeouted_server_address = df.iat[timeout_index[i], server_address]
 
-        #　same_address_df -> タイムアウトしたサーバアドレスのみのdataframeを抽出したdataframe
+        # same_address_df -> タイムアウトしたサーバアドレスのみのdataframeを抽出したdataframe
         same_address_df = df[df['Server_address'] == timeouted_server_address]
 
         # index -> タイムアウトした日時のindex
         index = same_address_df.index.get_loc(timeout_index[i])
 
-        #same_address_df.iat[index + 1, datetime] ->  故障した日時の次の日時
-        #same_address_df.iat[index, datetime] -> 故障したときの日時
-        timeouted_period = same_address_df.iat[index + 1, datetime] - same_address_df.iat[index, datetime]
+        try:
+            # same_address_df.iat[index + 1, datetime] ->  故障した日時の次の日時
+            # same_address_df.iat[index, datetime] -> 故障したときの日時
+            timeouted_period = same_address_df.iat[index + 1, datetime] - same_address_df.iat[index, datetime]
+        except IndexError:
+            break
 
-        #print(format(str, '0>14')) #日時を０で埋める (YYYYMMDDhhmmssの形式にする)
-        f.write(timeouted_server_address + ',')
-        f.write(format(timeouted_period, '0>14') + '\n')
+        try:
+            # print(format(str, '0>14')) #日時を０で埋める (YYYYMMDDhhmmssの形式にする)
+            f.write(timeouted_server_address + ',')
+            f.write(format(timeouted_period, '0>14') + '\n')
+        except NameError:
+            break

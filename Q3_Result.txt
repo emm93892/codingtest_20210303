@@ -1,0 +1,3 @@
+Server address,Time outed period,Status
+10.20.30.1/16,00000000000400,breakdown
+10.20.30.1/16,840.0,overload
