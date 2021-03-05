@@ -8,11 +8,11 @@ Q1 ~ Q4のファイルをダウンロードし
 各ファイル内のQ1.py ~ Q4.py を実行すると  
 実行結果が Q1_Result.txt ~ Q4_Result.txt に出力されます。  
 
-必要なライブラリはrequirements.txtに記載しています。  
+必要なライブラリは[requirements.txt](https://github.com/emm93892/codingtest_20210303/blob/main/requirements.txt)に記載しています。  
 
 詳しいコード解説は各ページに記載しています。  
-[Q1]()  
-[Q2]()  
-[Q3]()  
-[Q4]()  
+[Q1](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q1.md)  
+[Q2](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q2.md)  
+[Q3](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q3.md)  
+[Q4](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q4.md)  
  
