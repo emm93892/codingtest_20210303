@@ -1,7 +1,5 @@
 import pandas as pd
-import os.path
 
-dirname = os.getcwd()
 # log.csvのcolumnのindexを設定
 datetime = 0
 server_address = 1
