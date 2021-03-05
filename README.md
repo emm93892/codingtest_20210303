@@ -11,8 +11,8 @@ Q1 ~ Q4のファイルをダウンロードし
 必要なライブラリは[requirements.txt](https://github.com/emm93892/codingtest_20210303/blob/main/requirements.txt)に記載しています。  
 
 詳しいコード解説は各ページに記載しています。  
-コード解説：[Q1](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q1.md)  
-コード解説：[Q2](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q2.md)  
-コード解説：[Q3](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q3.md)  
-コード解説：[Q4](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q4.md)  
+解説：[Q1](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q1.md)  
+解説：[Q2](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q2.md)  
+解説：[Q3](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q3.md)  
+解説：[Q4](https://github.com/emm93892/codingtest_20210303/blob/main/readme/Q4.md)  
  
